@@ -5,6 +5,10 @@
 	- Strategy
 	- Observer
 
+- **Creational Patterns**
+	- Simple Factory
+	- Factory Method
+
 ---
 
 ## Behavioral Patterns
@@ -40,3 +44,29 @@
 	- Pro: loose coupling - Subject doesn't need to know anything about the Observers.
 	- Cons: Subject may send updates that don't matter to the Observer. 
 
+
+--
+
+### Simple Factory Pattern
+
+![](./src/main/resources/img/simple-factory-uml.png)
+
+- One factory creates all products
+- We create obj without exposing the creation logic to the client
+- refer to newly created obj using a common interface
+
+-	Cons
+	- If a new product is added, we'll have to modify factory
+
+
+### Factory Method Pattern
+
+![](./src/main/resources/img/factory-method-definition.png)
+![](./src/main/resources/img/factory-method-uml.png)
+
+
+- Concrete factories create products
+- Open-closed principal
+
+-	Cons
+	- If a new product is added, we'll have to add in its factory along with => extra overhead
