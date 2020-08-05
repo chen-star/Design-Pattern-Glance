@@ -45,7 +45,9 @@
 	- Cons: Subject may send updates that don't matter to the Observer. 
 
 
---
+---
+
+## Creational Patterns
 
 ### Simple Factory Pattern
 
@@ -58,6 +60,7 @@
 -	Cons
 	- If a new product is added, we'll have to modify factory
 
+--
 
 ### Factory Method Pattern
 
@@ -70,3 +73,20 @@
 
 -	Cons
 	- If a new product is added, we'll have to add in its factory along with => extra overhead
+	
+--
+
+### Abstract Factory Pattern
+
+![](https://design-patterns.readthedocs.io/zh_CN/latest/_images/AbatractFactory.jpg)
+![](./src/main/resources/img/abstract-factory-uml.png)
+
+
+- solves the problem of creating families of related products
+- Open-closed principal
+
+-	Cons
+	- If a new product is added, we'll have to modify AbstractFactory interface => violate open-close principal
+	- Can gets complicated
+
+--
