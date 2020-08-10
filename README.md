@@ -108,3 +108,13 @@
 	- Simple Eager
 	- Enum
 
+
+---
+
+### Builder Pattern
+
+![](https://segmentfault.com/img/remote/1460000015153333?w=976&h=454)
+
+- Used to create objects made from a bunch of other objs
+	- Hide the process of building a complex obj
+
