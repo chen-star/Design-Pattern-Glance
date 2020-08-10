@@ -8,6 +8,9 @@
 - **Creational Patterns**
 	- Simple Factory
 	- Factory Method
+	- Abstract Factory
+	- Singleton
+	- Builder
 
 ---
 
@@ -22,7 +25,7 @@
 
 - The consumers are allowed to switch out one algorithm for another seamlessly.
 
---
+---
 
 ### Observer Pattern
 
@@ -60,7 +63,7 @@
 -	Cons
 	- If a new product is added, we'll have to modify factory
 
---
+---
 
 ### Factory Method Pattern
 
@@ -74,7 +77,7 @@
 -	Cons
 	- If a new product is added, we'll have to add in its factory along with => extra overhead
 	
---
+---
 
 ### Abstract Factory Pattern
 
@@ -89,4 +92,19 @@
 	- If a new product is added, we'll have to modify AbstractFactory interface => violate open-close principal
 	- Can gets complicated
 
---
+---
+
+### Singleton Pattern
+
+
+- Ensure that only a single instance of a class exists and a global point of access to it exists.
+
+- Lazy: 
+	 - Single thread
+	 - Synchronized
+	 - Double-checked locking
+
+- Eager:
+	- Simple Eager
+	- Enum
+
