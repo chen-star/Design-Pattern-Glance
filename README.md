@@ -11,6 +11,7 @@
 	- Abstract Factory
 	- Singleton
 	- Builder
+	- Prototype
 
 ---
 
@@ -117,4 +118,13 @@
 
 - Used to create objects made from a bunch of other objs
 	- Hide the process of building a complex obj
+
+	
+---
+
+### Prototype Pattern
+
+![](https://www.baeldung.com/wp-content/uploads/2019/10/Prototype-Pattern.png)
+
+- Creating new objs by cloning other objs
 
