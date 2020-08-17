@@ -12,6 +12,9 @@
 	- Singleton
 	- Builder
 	- Prototype
+	
+- **Structure Patterns**
+	- Decorator 
 
 ---
 
@@ -127,4 +130,16 @@
 ![](https://www.baeldung.com/wp-content/uploads/2019/10/Prototype-Pattern.png)
 
 - Creating new objs by cloning other objs
+
+
+---
+
+## Behavioral Patterns
+
+### Decorator Pattern
+
+![](https://segmentfault.com/img/remote/1460000016508995?w=799&h=538)
+![](./src/main/resources/img/decorator-uml.png)
+
+- Add new functionality without modifying existing code
 
